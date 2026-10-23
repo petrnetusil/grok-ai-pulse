@@ -7,149 +7,83 @@
 </head>
 <body>
 <pre id="digest">AI PULSE X DIGEST
-Generated: 2026-10-22 05:40 Europe/Prague (2026-10-22T03:40:00Z)
-Window: 2026-10-21 06:00 → 2026-10-22 05:40 Europe/Prague
-Items: 9 (+ 3 radar)
-Top buzz today: OpenAI models on Google Cloud Model Garden, Gemini 4 Argon creative demos and anatomy viz, Anthropic Public Benefit Report, AI-accelerated PHP vulnerability chaos, Satya Nadella annual letter
+Generated: 2026-10-23 05:40 Europe/Prague (2026-10-23T03:40:00Z)
+Window: 2026-10-22 06:00 → 2026-10-23 05:40 Europe/Prague
+Items: 4 (+ 2 radar)
+Top buzz today: Anthropic Claude formal verification of 123 OSS libraries, Microsoft MAI-DxO 1.7x more accurate than ED physicians, OpenAI METR/Redwood embedded agent monitoring assessment, ServiceNow AI ticket routing results
 
 == MAIN ==
 
-1. OpenAI (@OpenAI) · 2026-10-21 19:23 UTC
-   URL: https://x.com/OpenAI/status/2112988118471295323
-   Category: enterprise
-   Subject: OpenAI models on Google Cloud
-   Quote: "OpenAI models are coming to Google Cloud. We're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden, so enterprises can use our technology where they already build."
-   Summary: OpenAI announced availability of its frontier models and Codex agentic workflows in Google Cloud's Model Garden, enabling enterprises to access them in existing Google Cloud environments. Google Cloud is the only hyperscaler offering all three major closed LLMs.
-   Primary link: https://openai.com/index/openai-models-google-cloud/
-   Engagement: 3386 likes, 259 reposts, 268k views
+1. Anthropic (@AnthropicAI) · 2026-10-22 22:01 UTC
+   URL: https://x.com/AnthropicAI/status/2113390212911083894
+   Category: security
+   Subject: Claude formal verification of OSS libraries
+   Quote: "New on our Frontier Red Team blog: using Claude to formally verify software at large scale."
+   Summary: Anthropic Frontier Red Team with Theorem Labs used Claude to prove security properties (no-crash on inputs <64MB) at RISC-V assembly level for 239 entry points across 123 OSS-Fuzz libraries in weeks, generating ~180M lines of Rocq proofs. First large-scale AI formal verification of production software at assembly level; found and patched bugs en route.
+   Primary link: https://www.anthropic.com/research/formal-verification
+   Engagement: 4607 likes, 445 reposts, 576k views
    Also discussed by:
-     - @googlecloud — https://x.com/googlecloud/status/2112896659608785181 — 913 likes, 96k views — announces same partnership, claims only hyperscaler with all three LLMs
-     - @_maddox1337 — https://x.com/_maddox1337/status/2113108944801677631 — 0 likes, 15 views — notes unexpected OpenAI on Google Cloud
-     - none found (searched: more high-engagement quote-posts)
+     - @theoremlabs — https://x.com/theoremlabs/status/2113396868814360821 — 385 likes, 22k views — partners confirm 123 projects verified, launching OSS Verify
+     - none found (searched: high-engagement quote-posts formal verification Claude)
 
-2. Google DeepMind (@GoogleDeepMind) · 2026-10-21 18:30 UTC
-   URL: https://x.com/GoogleDeepMind/status/2112974723659247896
+2. Mustafa Suleyman (@mustafasuleyman) · 2026-10-22 18:13 UTC
+   URL: https://x.com/mustafasuleyman/status/2113332931423039945
    Category: research
-   Subject: Gemini 4 Argon anatomy visualization
-   Quote: "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart."
-   Summary: DeepMind demonstrated Gemini 4 Argon building an interactive 3D human anatomy visualization from open-source datasets, allowing layer toggles and heart zoom. Part of ongoing Argon capability showcases.
-   Primary link: none found
-   Engagement: 1693 likes, 150 reposts, 78k views
+   Subject: Microsoft MAI Diagnostic Orchestrator
+   Quote: "Our MAI Diagnostic system is now 1.7x more accurate than physicians in the ED, even when they have access to the web to look things up."
+   Summary: Microsoft AI published in Science results showing MAI-DxO (diagnostic orchestrator using multiple agents) achieves 1.7x accuracy of physicians on ED cases (80% vs 47%) and >2x on complex NEJM cases, at lower cost with fewer tests. Orchestration improves base models.
+   Primary link: https://microsoft.ai/news/building-medical-superintelligence/
+   Engagement: 253 likes, 44 reposts, 68k views
    Also discussed by:
-     - @pridgenmd — https://x.com/pridgenmd/status/2112995193054273938 — 24 likes, 1.8k views — requests link, shares similar tool
-     - none found (searched: Argon anatomy high views)
+     - @satyanadella — https://x.com/satyanadella/status/2113347282469077501 — 364 likes, 61k views — highlights Science paper on diagnostic accuracy and cost reduction
+     - none found (searched: MAI Diagnostic high views)
 
-3. Anthropic (@AnthropicAI) · 2026-10-21 17:59 UTC
-   URL: https://x.com/AnthropicAI/status/2112966949273801086
-   Category: research
-   Subject: Anthropic Public Benefit Report
-   Quote: "Anthropic is a Public Benefit Corporation. Today, we’re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we’re taking to advance them."
-   Summary: Anthropic released its annual Public Benefit Report detailing progress on five pillars as a PBC. Also announced Dr. Christopher Stubbs joining the Long-Term Benefit Trust.
-   Primary link: https://www.anthropic.com/public-benefit-charter
-   Engagement: 2039 likes, 171 reposts, 203k views
+3. OpenAI (@OpenAI) · 2026-10-22 15:58 UTC
+   URL: https://x.com/OpenAI/status/2113298833392496746
+   Category: security
+   Subject: METR/Redwood embedded monitoring assessment
+   Quote: "This summer, we invited METR and Redwood Research to pilot an embedded evaluation of our internal monitoring system, providing deep access to our infrastructure over three weeks."
+   Summary: OpenAI hosted METR and Redwood researchers for 3 weeks to assess internal misalignment monitoring of coding agents. Findings included coverage gaps (~10% Codex traffic unmonitored via compaction), novel vulnerabilities allowing monitor bypass or action concealment; production-impacting issues patched.
+   Primary link: https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/
+   Engagement: 2132 likes, 126 reposts, 273k views
    Also discussed by:
-     - none found (searched: Public Benefit Report Anthropic)
+     - @METR_Evals — https://x.com/METR_Evals/status/2113290966933389390 — 994 likes, 351k views — announces public write-up of the pilot
+     - none found (searched: OpenAI METR monitoring quote-posts)
 
-4. GitHub (@github) · 2026-10-21 16:06 UTC
-   URL: https://x.com/github/status/2112938664959562081
+4. ServiceNow (@ServiceNow) · 2026-10-22 13:36 UTC
+   URL: https://x.com/ServiceNow/status/2113263139760271681
    Category: enterprise
-   Subject: GitHub Chopin + Proof-Driven Development Kit
-   Quote: "Chopin + Proof-Driven Development Kit from @GitHubNext and @MSFTResearch enable teams to ship AI-generated code to production without reviewing it line by line, with stronger assurance than code review and testing alone."
-   Summary: GitHub highlighted research preview of Chopin integrated with MSFT Research's PDD Kit for formal verification of AI-generated code using Verus proofs, falling back to tests. Demoed at upcoming Universe.
-   Primary link: none found
-   Engagement: 346 likes, 34 reposts, 50k views
+   Subject: ServiceNow AI ticket routing
+   Quote: "@thrivenextgenit cut the wait for an engineer from six minutes to under 60 seconds with ServiceNow AI."
+   Summary: Case study: MSP used ServiceNow AI to route tickets and generate summaries, reducing engineer wait from 6min to <60s, achieving 73% first-contact resolution, returning 14.5k engineer hours, 99.2% CSAT.
+   Primary link: none found (searched: Thrive NextGen IT ServiceNow AI)
+   Engagement: 25 likes, 2 reposts, 1.3k views
    Also discussed by:
-     - @GitHubNext — https://x.com/GitHubNext/status/2112936525457740139 — 1066 likes, 168k views — introduces PDD Kit details
-
-5. Microsoft Azure (@Azure) · 2026-10-21 17:30 UTC
-   URL: https://x.com/Azure/status/2112959619119145415
-   Category: enterprise
-   Subject: Azure Maia 300
-   Quote: "Maia 300 is part of an end-to-end Azure system, co-designed across silicon, software, networking, cooling, and datacenter infrastructure."
-   Summary: Azure posted deep dive on Maia 300 AI accelerator architecture, emphasizing full-stack co-design for Azure infrastructure.
-   Primary link: https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/
-   Engagement: 50 likes, 7 reposts, 6.8k views
-   Also discussed by:
-     - none found (searched: Maia 300 Azure)
-
-6. Google Cloud (@googlecloud) · 2026-10-21 17:00 UTC
-   URL: https://x.com/googlecloud/status/2112952051386679720
-   Category: enterprise
-   Subject: TorchTPU open source
-   Quote: "Native PyTorch on TPUs is here—and TorchTPU is officially open source. Train and serve models using the tools you already know: @vllm_project, @sgl_project..."
-   Summary: Google Cloud open-sourced TorchTPU for native PyTorch on TPUs, supporting tools like vLLM, SGLang, Hugging Face, Ray. Announced at PyTorchConf2026.
-   Primary link: https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus
-   Engagement: 272 likes, 48 reposts, 25k views
-   Also discussed by:
-     - none found (searched: TorchTPU open source)
-
-7. ServiceNow (@ServiceNow) · 2026-10-21 13:04 UTC
-   URL: https://x.com/ServiceNow/status/2112892820419641688
-   Category: enterprise
-   Subject: ServiceNow Arc + NVIDIA governance
-   Quote: "NVIDIA and ServiceNow are taking AI agent governance below the software layer. At @nvidia GTC, we’re showing how policy set in the Super Intelligence Control Tower is designed to be enforced by NVIDIA OpenShell at runtime and NVIDIA BlueField DPUs in silicon."
-   Summary: ServiceNow and NVIDIA demoed multi-layer AI agent governance (policy in Control Tower, enforced by OpenShell and BlueField DPUs). ServiceNow Arc personal agent generally available for local model tasks with IT governance.
-   Primary link: none found
-   Engagement: 49 likes, 6 reposts, 2.2k views
-   Also discussed by:
-     - none found (searched: ServiceNow Arc NVIDIA)
-
-8. Satya Nadella (@satyanadella) · 2026-10-21 20:45 UTC
-   URL: https://x.com/satyanadella/status/2113008920008790488
-   Category: enterprise
-   Subject: Satya Nadella annual letter
-   Quote: "In my annual letter, I share how we’re building a frontier ecosystem to turn technological progress into real-world outcomes and economic opportunity for people, organizations, and communities everywhere."
-   Summary: Nadella published annual letter on building frontier ecosystem for real-world outcomes. Earlier post highlighted Copilot use at Yorkshire Ambulance Service to reduce admin and improve patient care, as NHS expands Copilot to 500k staff.
-   Primary link: https://www.linkedin.com/pulse/my-annual-letter-building-frontier-ecosystem-satya-nadella-iujec/
-   Engagement: 654 likes, 105 reposts, 79k views
-   Also discussed by:
-     - none found (searched: Nadella annual letter 2026)
-
-9. Google (@Google) · 2026-10-21 17:44 UTC
-   URL: https://x.com/Google/status/2112963255924674955
-   Category: enterprise
-   Subject: Gemini in Google Maps CarPlay
-   Quote: "Gemini is now available in @GoogleMaps navigation on CarPlay. Find the best place to park, report a traffic incident, or change your route with just a quick conversation."
-   Summary: Google announced Gemini integration in Google Maps navigation on CarPlay for conversational parking, incident reporting, and route changes.
-   Primary link: none found
-   Engagement: 1343 likes, 142 reposts, 225k views
-   Also discussed by:
-     - none found (searched: Gemini Maps CarPlay)
+     - none found (searched: ServiceNow AI Thrive)
 
 == RADAR ==
 
-1. Reuters (@Reuters) · 2026-10-22 01:15 UTC
-   URL: https://x.com/Reuters/status/2113076621599195281
+1. The Information (@theinformation) · 2026-10-22 21:30 UTC
+   URL: https://x.com/theinformation/status/2113382463560929287
    Category: security
-   Subject: PHP vulnerabilities discovered with AI
-   Quote: "Some government websites in Europe and elsewhere went offline after vulnerabilities in PHP, a widely used programming language, were uncovered using AI."
-   Summary: Reuters reports widespread outages of government and other sites due to critical PHP vulnerabilities discovered with AI assistance; patches leaked early, affecting millions of servers including WordPress etc. Highlights AI acceleration of cyber threats.
-   Primary link: https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/
-   Engagement: 37 likes, 28 reposts, 30k views
+   Subject: AI accelerates vulnerability discovery
+   Quote: "AI is making it easier to discover security vulnerabilities. But increasingly capable Chinese open-source models could leave defenders with far less time to fix them."
+   Summary: The Information discusses how AI shortens the defender's window for patching, with Chinese open-source models potentially enabling faster exploits.
+   Primary link: none found (video post)
+   Engagement: 11 likes, 4 reposts, 4k views
    Also discussed by:
-     - @emollick — https://x.com/emollick/status/2113063313810792916 — 806 likes, 55k views — links to AI attack/defense acceleration
+     - none found (searched: AI vulnerability discovery The Information)
 
-2. Bloomberg (@business) · 2026-10-22 02:30 UTC
-   URL: https://x.com/business/status/2113095550279078373
-   Category: rumour
-   Subject: Wall Street AI compute costs
-   Quote: "Wall Street's top bank executives are tackling a key, largely unspoken issue in the race to adopt AI use: budgeting for surging computing costs"
-   Summary: Bloomberg reports banks grappling with soaring AI compute bills as they adopt the technology.
-   Primary link: https://www.bloomberg.com/news/articles/2026-10-22/how-wall-street-banks-are-grappling-with-soaring-ai-bills
-   Engagement: 4 likes, 1 repost, 15k views
+2. Bloomberg (@business) · 2026-10-22 23:53 UTC
+   URL: https://x.com/business/status/2113418509061337185
+   Category: buzz
+   Subject: Meta AI buildout investor nerves
+   Quote: "Meta’s $825 billion AI buildout plan is making investors nervous, but Microsoft, Alphabet and Amazon could be different."
+   Summary: Bloomberg notes investor concern over Meta's AI capex plans vs other hyperscalers.
+   Primary link: https://link.podtrac.com/3mw4ygxn (podcast)
+   Engagement: 3 likes, 1 repost, 17k views
    Also discussed by:
-     - none found (searched: Wall Street AI bills)
-
-3. Alex Heath (@alexeheath) · 2026-10-22 00:31 UTC
-   URL: https://x.com/alexeheath/status/2113065548527407241
-   Category: teaser
-   Subject: Google Project Suncatcher space data centers
-   Quote: "Sundar Pichai on Google's new space data center effort, Project Suncatcher: \"We will have a nice 'hello world' moment coming up... We'll get a chance to say hello to the TPUs..."
-   Summary: From interview, Pichai teases early steps on space-based data centers for 24/7 energy access, with TPUs in orbit as long-term compute solution.
-   Primary link: none found (interview)
-   Engagement: 15 likes, 3 reposts, 3.3k views
-   Also discussed by:
-     - none found (searched: Project Suncatcher Pichai)
+     - none found (searched: Meta AI buildout Bloomberg)
 
 END OF DIGEST
 </pre>
