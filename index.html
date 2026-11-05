@@ -7,90 +7,86 @@
 </head>
 <body>
 <pre id="digest">AI PULSE X DIGEST
-Generated: 2026-11-04 05:40 Europe/Prague (2026-11-04T04:40:00Z)
-Window: 2026-11-03 06:00 → 2026-11-04 05:40 Europe/Prague
+Generated: 2026-11-05 05:40 Europe/Prague (2026-11-05T04:40:00Z)
+Window: 2026-11-04 06:00 → 2026-11-05 05:40 Europe/Prague
 Items: 5 (+ 2 radar)
-Top buzz today: OpenAI Astra physical engineering demos, Anthropic FlashProve provable inference, Grok Bot phone calling features, Sam Altman on human control of AI future, Google Cloud Gemini industry courses
+Top buzz today: OpenAI ChatGPT Images 2.6 with GIFs and faster API models, OpenAI autonomous Linux kernel vulnerability pipeline (948 LPEs for $1.2M), Anthropic Claude maps first bacterial vault particle 3D structure, Google Cloud AlloyDB Express for agents, NVIDIA Agent Toolkit expansion
 
 == MAIN ==
 
-1. OpenAI (@OpenAI) · 2026-11-03 18:56 UTC
-   URL: https://x.com/OpenAI/status/2117692475775258785
-   Category: enterprise
-   Subject: OpenAI physical-world engineering with ChatGPT/Codex/Astra
-   Quote: "ChatGPT and Codex are helping engineers build for the physical world."
-   Summary: OpenAI shared advances in using models for mechanical design, electrical engineering and simulation. GPT-6 Astra designed a Codex-talking prototype device (enclosure, PCB, software) in under a week as a side project; collaborations with Chip Ganassi Racing (CAD from scans) and Mazda (vehicle simulation). Hardware team token usage up 23x since February.
-   Primary link: https://openai.com/index/accelerating-engineering-for-the-physical-world/
-   Engagement: 5602 likes, 448 reposts, 680237 views
+1. OpenAI (@OpenAI) · 2026-11-04 23:35 UTC
+   URL: https://x.com/OpenAI/status/2118124944928432327
+   Category: launch
+   Subject: OpenAI ChatGPT Images 2.6 / GPT-Image-2.6 Flare and Sunburst
+   Quote: "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation."
+   Summary: OpenAI launched ChatGPT Images 2.6 with GIF generation (speed/frame edits), saved reference images for reuse, and two new API models: GPT-Image-2.6 Flare (as little as 6s generation) and Sunburst (higher quality, better edit consistency). Available across ChatGPT/Codex tiers and API; image markup and SVG exports added. Pricing unchanged from 2.5.
+   Primary link: https://openai.com/index/introducing-images-2-6/
+   Engagement: 13119 likes, 1198 reposts, 1009224 views
    Also discussed by:
-     - @Studio17_x — https://x.com/Studio17_x/status/2117693007143346435 — 66 likes/7572 views — asks for GPT-6.2
-     - none found (searched: OpenAI physical world Astra prototype)
+     - @DesignArena — https://x.com/DesignArena/status/2118124376126271823 — high engagement — ranks 2.6 #1 on Image Arena
+     - none found (searched: Images 2.6 Flare Sunburst)
 
-2. Anthropic (@AnthropicAI) · 2026-11-03 20:10 UTC
-   URL: https://x.com/AnthropicAI/status/2117710942826123294
+2. OpenAI (@OpenAI) · 2026-11-04 23:13 UTC
+   URL: https://x.com/OpenAI/status/2118119451401048497
    Category: security
-   Subject: Anthropic FlashProve
-   Quote: "Here, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model."
-   Summary: Anthropic open-sourced FlashProve, a research prototype for provable LLM inference. Uses cryptographic proofs (zk-style) so providers can commit to model weights and prove a response came from that model without revealing weights. Tested on Llama 4 Maverick (~110 tok/s on H100); applications include preventing model swaps, chat hijacks and verifying eval models. High compute overhead (70-95x vs inference).
-   Primary link: https://www.anthropic.com/research/provable-inference
-   Engagement: 3673 likes, 346 reposts, 318941 views
-   Also discussed by: none found (searched: FlashProve Anthropic)
+   Subject: OpenAI autonomous cyber vulnerability pipeline on Linux kernel
+   Quote: "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline. In a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API cost of $1.2 million."
+   Summary: Pipeline using upcoming cyber model reproduced 1,724 vulnerabilities, produced 948 working LPE exploits on stock Linux (standard protections), 291 info-leak PoCs, and candidate patches. Cost $1,213,430 (~$1,279/LPE). Found ≥10 novel exploitation techniques. Working with maintainers and Patch the Planet; humans review before reporting.
+   Primary link: https://openai.com/index/a-thousand-fewer-paths-to-root/
+   Engagement: 5744 likes, 583 reposts, 748466 views
+   Also discussed by: none found (searched: thousand fewer paths to root 948)
 
-3. Elon Musk (@elonmusk) · 2026-11-03 20:56 UTC
-   URL: https://x.com/elonmusk/status/2117722703738310713
-   Category: enterprise
-   Subject: Grok Bot phone calling
-   Quote: "Try asking Grok @Bot to make calls!"
-   Summary: xAI leader promoted Grok Bot's agentic calling capability: users instruct it to place phone calls (appointments, bookings, research) with live transcript, real-time user prompts for additional info, and post-call recording review. User examples include doctor appointments while driving and complex family trip bookings.
-   Primary link: none found
-   Engagement: 6594 likes, 790 reposts, 1897499 views
-   Also discussed by:
-     - @SawyerMerritt — https://x.com/SawyerMerritt/status/2117697749009207386 — 3103 likes/1566691 views — demos calling feature with audio
-     - @minchoi — https://x.com/minchoi/status/2117633564736938471 — 460 likes/1147962 views — appointment booking example
-
-4. Google Cloud (@googlecloud) · 2026-11-03 14:00 UTC
-   URL: https://x.com/googlecloud/status/2117617795110257041
-   Category: enterprise
-   Subject: Google Cloud Gemini courses for FS and legal
-   Quote: "New courses on Gemini for financial services and Gemini for legal are now available on #GoogleSkills."
-   Summary: Google Cloud released new bite-sized training courses on Gemini for financial services and legal teams via Google Skills, aimed at quick upskilling for domain-specific AI use.
-   Primary link: https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams
-   Engagement: 149 likes, 22 reposts, 10441 views
-   Also discussed by: none found (searched: Gemini courses financial services legal)
-
-5. Sam Altman (@sama) · 2026-11-04 01:40 UTC
-   URL: https://x.com/sama/status/2117794005165748448
+3. Anthropic (@AnthropicAI) · 2026-11-04 20:11 UTC
+   URL: https://x.com/AnthropicAI/status/2118073665296228863
    Category: research
-   Subject: OpenAI human control of AI future
-   Quote: "People should always be in control of the future."
-   Summary: OpenAI CEO stated opposition to humans being relegated to roles AI systems reward, asserting people must control the future and that this requirement should constrain AI progress.
+   Subject: Anthropic Claude maps prokaryotic vault particle 3D structure
+   Quote: "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life."
+   Summary: Biology team used Claude to find and solve first 3D structure of a vault particle from bacteriophage/bacteria (96 copies of L05 protein, ~9.5 MDa, larger volume than mammalian). Accelerated purification (3 days → 90 min) and structure determination (weeks/months → days). Demonstrates AI for science acceleration with noted limitations/mistakes. Preprint available.
+   Primary link: https://www.anthropic.com/research/investigating-vault-particles-with-claude
+   Engagement: 3273 likes, 349 reposts, 346420 views
+   Also discussed by: none found (searched: Anthropic vault particle Claude)
+
+4. Google Cloud (@googlecloud) · 2026-11-04 22:00 UTC
+   URL: https://x.com/googlecloud/status/2118100984131952766
+   Category: enterprise
+   Subject: Google Cloud AlloyDB Express
+   Quote: "Meet AlloyDB Express Instant, scale-to-zero PostgreSQL built for developers and coding agents. Spin up a database in <2 seconds with built-in AI, zero idle compute costs and a 1-click upgrade to production."
+   Summary: Google Cloud introduced AlloyDB Express: instant scale-to-zero PostgreSQL for developers and AI coding agents, with <2s spin-up, built-in AI, zero idle costs, and 1-click production upgrade. Part of Agentic Data Cloud updates.
+   Primary link: https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping
+   Engagement: 60 likes, 4 reposts, 5253 views
+   Also discussed by: none found (searched: AlloyDB Express)
+
+5. NVIDIA AI (@NVIDIAAI) · 2026-11-04 16:15 UTC
+   URL: https://x.com/NVIDIAAI/status/2118014372845142048
+   Category: enterprise
+   Subject: NVIDIA Agent Toolkit expansion
+   Quote: "We expanded the NVIDIA Agent Toolkit to help developers build agents that use company data to answer questions and make predictions, with controls over what agents can access and do."
+   Summary: NVIDIA expanded Agent Toolkit for building agents on company data for Q&A and predictions, with access/controls. Examples from Lila Sciences, Siemens, Dassault Systèmes for therapy design, factory planning, vehicle design.
    Primary link: none found
-   Engagement: 7221 likes, 392 reposts, 2024979 views
-   Also discussed by:
-     - @fchollet — https://x.com/fchollet/status/2117795655297175980 — 585 likes/52854 views — co-signs human tool control
-     - none found (searched: Sam Altman control future AI)
+   Engagement: 181 likes, 28 reposts, 12697 views
+   Also discussed by: none found (searched: NVIDIA Agent Toolkit)
 
 == RADAR ==
 
-1. Microsoft (@Microsoft) · 2026-11-03 17:30 UTC
-   URL: https://x.com/Microsoft/status/2117670766921842826
-   Category: teaser
-   Subject: Microsoft Ignite 2026
-   Quote: "Big ideas and exciting new breakthroughs are coming to Microsoft Ignite. Join us live on November 17 to be a part of what’s next."
-   Summary: Microsoft teased upcoming announcements and breakthroughs at Ignite conference on November 17, relevant for enterprise AI stack updates (Copilot, Azure).
-   Primary link: none found
-   Engagement: 165 likes, 31 reposts, 21432 views
+1. Reuters (@Reuters) · 2026-11-05 00:16 UTC
+   URL: https://x.com/Reuters/status/2118135451924181236
+   Category: rumour
+   Subject: Post-midterms AI regulation fears hit data center shares
+   Quote: "Wall Street closed sharply higher as Democrats' sweeping midterm election victory eased political uncertainty and boosted risk appetite, though data center shares fell on fears of tighter AI regulation"
+   Summary: After Democrats' midterm win, markets rose overall but data center stocks declined on expectations of tighter AI regulation. Analysts noted AI boom facing electoral reality with possible fewer data centres.
+   Primary link: https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/
+   Engagement: 29 likes, 14 reposts, 34519 views
    Also discussed by: none found
 
-2. Ethan Mollick (@emollick) · 2026-11-03 21:53 UTC
-   URL: https://x.com/emollick/status/2117736864010645567
+2. Elon Musk (@elonmusk) · 2026-11-04 17:44 UTC
+   URL: https://x.com/elonmusk/status/2118036744662880439
    Category: fun
-   Subject: AI slop comments experiment
-   Quote: "The AI slopcomments are out-of-control on X but also remarkably easy to stop if the company wanted to?"
-   Summary: Researcher shared experiment using Pangram on combined comments to detect and filter AI-generated slop on X, suggesting easy mitigation.
+   Subject: Grok Bot as personal assistant
+   Quote: "Try Grok @Bot. It’s like hiring an amazing assistant!"
+   Summary: Musk promoted Grok Bot after user demo of it calling insurance, handling mid-call questions via chat card, and continuing autonomously. Positions it as personal assistant for calls.
    Primary link: none found
-   Engagement: 207 likes, 9 reposts, 18283 views
-   Also discussed by: none found
+   Engagement: 7432 likes, 744 reposts, 1987452 views
+   Also discussed by: none found (searched: Grok Bot)
 
 END OF DIGEST
 </pre>
